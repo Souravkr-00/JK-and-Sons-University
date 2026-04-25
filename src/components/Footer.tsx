@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <div className=" p-1 rounded-sm w-30 h-30 flex items-center justify-center overflow-hidden">
-                <img src="../../assets/Images/logo.png" alt="JK & Sons University Logo" className="w-full h-full object-contain" />
+                <img src="/assets/Images/logo.png" alt="JK & Sons University Logo" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="font-serif font-bold text-lg tracking-tight leading-none text-white">

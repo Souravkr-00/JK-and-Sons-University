@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, Menu, X, GraduationCap } from 'lucide-react';
-
 const navLinks = [
   { name: 'Home', href: '#' },
   {
@@ -81,7 +80,7 @@ export default function Navbar() {
           {/* Left: Logo */}
           <div className="flex items-center space-x-3 group cursor-pointer">
             <div className="flex flex-col">
-              <img src='../../assets/Images/logo.png' alt="JK University Logo" className="w-23 h-auto object-contain -mt-1" />
+              <img src="/assets/Images/logo.png" alt="JK University Logo" className="w-23 h-auto object-contain -mt-1" />
             </div>
           </div>
 

@@ -32,7 +32,7 @@ function Home() {
                               className="group flex flex-col bg-white border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
                           >
                               <div className="h-64 overflow-hidden relative">
-                                  <img src="../assets/images/A1.jpg" alt="MPH" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
+                                  <img src="/assets/Images/A1.jpg" alt="MPH" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
                                   <div className="absolute inset-0 bg-navy/20"></div>
                               </div>
                               <div className="p-8 flex-1 flex flex-col">
@@ -58,7 +58,7 @@ function Home() {
                               className="group flex flex-col bg-white border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
                           >
                               <div className="h-64 overflow-hidden relative">
-                                  <img src="../assets/images/A2.jpg" alt="MBA" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
+                                  <img src="/assets/Images/A2.jpg" alt="MBA" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
                                   <div className="absolute inset-0 bg-navy/20"></div>
                               </div>
                               <div className="p-8 flex-1 flex flex-col">
@@ -84,7 +84,7 @@ function Home() {
                               className="group flex flex-col bg-white border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
                           >
                               <div className="h-64 overflow-hidden relative">
-                                  <img src="../assets/images/A3.jpg" alt="MSc BSc" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
+                                  <img src="/assets/Images/A3.jpg" alt="MSc BSc" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" referrerPolicy="no-referrer" />
                                   <div className="absolute inset-0 bg-navy/20"></div>
                               </div>
                               <div className="p-8 flex-1 flex flex-col">
