@@ -127,6 +127,87 @@ function Home() {
                       </div>
                   </div>
               </section>
+              
+              {/* Research Section */}
+              <section className="py-24 bg-app-bg border-b border-gray-100">
+                  <div className="max-w-7xl mx-auto px-6 lg:px-12">
+                      <div className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
+                          <div className="max-w-2xl">
+                              <span className="text-gold font-bold text-xs uppercase tracking-[0.2em] mb-4 block">Medical Innovation</span>
+                              <h2 className="text-4xl md:text-5xl font-serif font-bold text-navy mb-6">Cutting-Edge Research</h2>
+                              <p className="text-text-muted font-light leading-relaxed">
+                                  Our faculty and graduate researchers are pushing the boundaries of medical science through
+                                  rigorous clinical trials and interdisciplinary collaborations.
+                              </p>
+                          </div>
+                          <button className="whitespace-nowrap bg-navy text-white px-8 py-4 rounded-md font-semibold text-sm hover:opacity-90 transition-all shadow-lg shadow-navy/10 active:scale-[0.98]">
+                              View All Publications
+                          </button>
+                      </div>
+
+                      <div className="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 overflow-x-auto md:overflow-x-visible pb-8 md:pb-0 snap-x snap-mandatory scroll-smooth">
+                          {[
+                              {
+                                  title: "Genomic Mapping of Eurasian Populations",
+                                  desc: "Pioneers in identifying region-specific genetic markers for personalized medicine in the Caucasus region.",
+                                  seed: "genetics"
+                              },
+                              {
+                                  title: "Regenerative Stem Cell Therapy",
+                                  desc: "Breakthrough clinical trials on using non-invasive stem cell applications for advanced heart valve repair.",
+                                  seed: "microscope"
+                              },
+                              {
+                                  title: "AI-Driven Epidemiological Surveillance",
+                                  desc: "Developing real-time predictive models for regional health outbreaks using neural network analysis.",
+                                  seed: "digital-health"
+                              },
+                              {
+                                  title: "Nanotechnology in Aesthetic Dentistry",
+                                  desc: "Novel research on high-durability, bio-compatible nanomaterials for restorative dental procedures.",
+                                  seed: "nano"
+                              },
+                              {
+                                  title: "Digital Health Systems for Rural Access",
+                                  desc: "Evaluating the impact of remote-monitoring digital platforms on chronic disease management.",
+                                  seed: "telemedicine"
+                              },
+                              {
+                                  title: "Endemic Flora & Herbal Pharmacology",
+                                  desc: "Scientific validation of endemic Armenian flora in treating complex inflammatory skin conditions.",
+                                  seed: "herbal"
+                              }
+                          ].map((item, idx) => (
+                              <motion.div
+                                  key={idx}
+                                  initial={{ opacity: 0, y: 20 }}
+                                  whileInView={{ opacity: 1, y: 0 }}
+                                  viewport={{ once: true }}
+                                  transition={{ delay: idx * 0.1 }}
+                                  className="bg-white rounded border border-gray-100 p-8 flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all group shrink-0 w-[85%] sm:w-[60%] md:w-auto snap-center"
+                              >
+                                  <div className="aspect-video mb-6 rounded overflow-hidden relative">
+                                      <img
+                                          src={`https://picsum.photos/seed/jk-res-${item.seed}/600/400`}
+                                          alt={item.title}
+                                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                          referrerPolicy="no-referrer"
+                                      />
+                                      <div className="absolute inset-0 bg-navy/10"></div>
+                                  </div>
+                                  <h3 className="text-lg font-serif font-bold text-navy mb-3 group-hover:text-gold transition-colors">{item.title}</h3>
+                                  <p className="text-sm text-text-muted font-light leading-relaxed mb-6 flex-1">
+                                      {item.desc}
+                                  </p>
+                                  <div className="flex items-center text-xs font-bold text-navy uppercase tracking-widest gap-2">
+                                      <span className="w-8 h-px bg-gold"></span>
+                                      READ ABSTRACT
+                                  </div>
+                              </motion.div>
+                          ))}
+                      </div>
+                  </div>
+              </section>
 
           </section>
     </div>
