@@ -69,7 +69,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
             style={{ backgroundImage: `url(${banners[currentIndex].image})` }}
           >
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-navy/90 via-navy/40 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-transparent"></div>
           </div>
 
           {/* Content */}
@@ -87,7 +87,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold leading-tight mb-6 max-w-2xl"
+              className="text-md md:text-4xl lg:text-5xl font-serif font-bold leading-tight mb-6 max-w-2xl"
             >
               {banners[currentIndex].title}
             </motion.h2>
@@ -96,7 +96,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="text-lg md:text-xl text-white/80 font-light mb-10 max-w-xl"
+              className="text-md md:text-xl text-white/80 font-light mb-10 max-w-xl"
             >
               {banners[currentIndex].subtitle}
             </motion.p>
@@ -107,12 +107,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
               transition={{ delay: 0.6 }}
               className="flex gap-4"
             >
-              <button className=" text-navy px-8 py-3 rounded font-bold text-sm tracking-widest uppercase hover:bg-gold transition-colors">
-                Learn More
-              </button>
-              <button className="border border-white/30 text-white px-8 py-3 rounded font-bold text-sm tracking-widest uppercase hover:bg-white/10 transition-colors">
-                View Gallery
-              </button>
+              
             </motion.div>
           </div>
         </motion.div>
@@ -122,13 +117,13 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
       <div className="absolute bottom-10 right-12 z-20 flex gap-4">
         <button
           onClick={prevSlide}
-          className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-navy transition-all active:scale-90"
+          className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-black transition-all active:scale-90"
         >
           <ChevronLeft size={24} />
         </button>
         <button
           onClick={nextSlide}
-          className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-navy transition-all active:scale-90"
+          className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white hover:bg-white hover:text-black transition-all active:scale-90"
         >
           <ChevronRight size={24} />
         </button>

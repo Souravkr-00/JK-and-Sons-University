@@ -1,0 +1,164 @@
+[
+  {
+    "id": "mph-epi",
+    "category": "Public Health",
+    "degree": "MPH",
+    "title": "Epidemiology",
+    "description": "Study the distribution and determinants of health-related states in populations, focusing on disease prevention and control strategies.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/epi-course/800/600"
+  },
+  {
+    "id": "mph-bio",
+    "category": "Public Health",
+    "degree": "MPH",
+    "title": "Biostatistics",
+    "description": "Master statistical methods for health research, including data analysis, clinical trials design, and public health interpretation.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/bio-course/800/600"
+  },
+  {
+    "id": "mph-env",
+    "category": "Public Health",
+    "degree": "MPH",
+    "title": "Environmental & Occupational Health",
+    "description": "Examine the impact of environmental factors and workplace conditions on community health and safety standards.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/env-course/800/600"
+  },
+  {
+    "id": "mph-policy",
+    "category": "Public Health",
+    "degree": "MPH",
+    "title": "Health Policy and Management",
+    "description": "Analyze health systems, policy frameworks, and management strategies to improve healthcare delivery and patient outcomes.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/policy-course/800/600"
+  },
+  {
+    "id": "mph-global",
+    "category": "Public Health",
+    "degree": "MPH",
+    "title": "Global Health and Disease Control",
+    "description": "Address international health challenges and strategies for managing infectious and non-communicable diseases globally.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/global-course/800/600"
+  },
+  {
+    "id": "mba-lead",
+    "category": "Healthcare Management",
+    "degree": "MBA",
+    "title": "Healthcare Administration and Leadership",
+    "description": "Develop essential leadership skills for managing complex healthcare organizations and leading multi-disciplinary teams.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/lead-course/800/600"
+  },
+  {
+    "id": "mba-ops",
+    "category": "Healthcare Management",
+    "degree": "MBA",
+    "title": "Hospital Operations and Quality Management",
+    "description": "Focus on optimizing hospital workflows, supply chains, and implementing rigorous quality assurance protocols.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/ops-course/800/600"
+  },
+  {
+    "id": "mba-econ",
+    "category": "Healthcare Management",
+    "degree": "MBA",
+    "title": "Health Economics and Financial Management",
+    "description": "Understand the economic principles of healthcare resource allocation and master financial planning for medical institutions.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/econ-course/800/600"
+  },
+  {
+    "id": "mba-hr",
+    "category": "Healthcare Management",
+    "degree": "MBA",
+    "title": "Human Resource Management in Healthcare",
+    "description": "Strategize personnel management, recruitment, and retention in the specialized context of clinical and administrative staff.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/hr-course/800/600"
+  },
+  {
+    "id": "mba-digital",
+    "category": "Healthcare Management",
+    "degree": "MBA",
+    "title": "Health Informatics and Digital Health Systems",
+    "description": "Integrate cutting-edge technology and data systems into healthcare management for modernized patient care.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/digital-course/800/600"
+  },
+  {
+    "id": "sci-aesthetic-med",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Aesthetic Medicine",
+    "description": "Advance your clinical skills in non-surgical cosmetic procedures and aesthetic patient care management.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/aes-med-course/800/600"
+  },
+  {
+    "id": "sci-cosmo",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Cosmetology",
+    "description": "Master the science of skincare, hair, and nail treatments with a focus on clinical safety and professionalism.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/cosmo-course/800/600"
+  },
+  {
+    "id": "sci-aesthetic-den",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Aesthetic Dentistry",
+    "description": "Focus on clinical excellence in cosmetic dental procedures, including restorative and restorative smile design.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/aes-den-course/800/600"
+  },
+  {
+    "id": "sci-regen",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Regenerative Medicine",
+    "description": "Explore the frontier of medicine with cell-based therapies and tissue engineering techniques for healing.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/regen-course/800/600"
+  },
+  {
+    "id": "sci-diab",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Diabetology",
+    "description": "Specialized study in the management, diagnosis, and prevention complications of diabetes mellitus.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/diab-course/800/600"
+  },
+  {
+    "id": "sci-endo",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Endocrinology",
+    "description": "In-depth clinical study of hormonal systems and their related disorders, from diagnostics to treatment.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/endo-course/800/600"
+  },
+  {
+    "id": "sci-cardio",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Clinical Cardiology",
+    "description": "Focus on pharmacological and non-invasive diagnostic strategies for cardiovascular health management.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/cardio-course/800/600"
+  },
+  {
+    "id": "sci-pod",
+    "category": "Allied Health Sciences",
+    "degree": "BSc/MSc",
+    "title": "Podiatric Medicine",
+    "description": "Master the diagnosis and treatment of conditions affecting the foot, ankle, and lower extremities.",
+    "duration": "2 Years",
+    "image": "https://picsum.photos/seed/pod-course/800/600"
+  }
+]

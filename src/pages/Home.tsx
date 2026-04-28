@@ -62,7 +62,7 @@ function Home() {
                                   <div className="absolute inset-0 bg-navy/20"></div>
                               </div>
                               <div className="p-8 flex-1 flex flex-col">
-                                  <h3 className="text-xl font-serif font-bold text-navy mb-4">Master of Business Admin (MBA)</h3>
+                                  <h3 className="text-xl font-serif font-bold text-navy mb-4">Master of Business Administration (MBA)</h3>
                                   <div className="space-y-2 mb-8 flex-1">
                                       {["Healthcare Leadership", "Hospital Operations", "Health Economics", "Digital Health Systems"].map(course => (
                                           <div key={course} className="flex items-center text-sm text-text-muted font-light">
@@ -140,7 +140,7 @@ function Home() {
                                   rigorous clinical trials and interdisciplinary collaborations.
                               </p>
                           </div>
-                          <button className="whitespace-nowrap bg-navy text-white px-8 py-4 rounded-md font-semibold text-sm hover:opacity-90 transition-all shadow-lg shadow-navy/10 active:scale-[0.98]">
+                          <button className="whitespace-nowrap bg-white text-navy px-8 py-4 rounded-md font-semibold text-sm hover:opacity-90 hover:bg-gray-100 transition-all shadow-lg shadow-black/10 active:scale-[0.98]">
                               View All Publications
                           </button>
                       </div>
