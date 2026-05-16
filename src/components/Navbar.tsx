@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, Menu, X, GraduationCap } from 'lucide-react';
-
 const navLinks = [
   { name: 'Home', href: '/' },
   {
@@ -67,15 +66,15 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b ${
-        scrolled ? 'bg-white shadow-sm border-gray-200 h-20' : 'bg-white/80 backdrop-blur-md border-transparent h-20'
+        scrolled ? 'bg-white shadow-sm border-gray-200 h-20' : 'bg-white/80 backdrop-blur-md border-transparent h-28'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 h-full">
         <div className="flex justify-between items-center h-full">
           {/* Left: Logo */}
           <div className="flex items-center space-x-3 group cursor-pointer">
-            <div className="flex flex-col">
-              <img src='../../assets/Images/logo.png' alt="JK University Logo" className="w-23 h-auto object-contain -mt-1" />
+            <div className="flex flex-row items-center space-x-1">
+              <img src="/assets/Images/logo.png" alt="JK University Logo" className="w-23 h-auto object-contain -mt-1" />
             </div>
           </div>
 

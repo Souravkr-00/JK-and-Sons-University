@@ -40,9 +40,25 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Column */}
+<<<<<<< HEAD
           <div className=" flex flex-col items-start">
             <div className="flex items-center space-x-3   ">
               <img src="../../assets/Images/logo.png" alt="JK & Sons University Logo" className="w-20 h-30" />
+=======
+          <div className="space-y-6">
+            <div className="flex items-center space-x-3">
+              <div className=" p-1 rounded-sm w-30 h-30 flex items-center justify-center overflow-hidden">
+                <img src="/assets/Images/logo.png" alt="JK & Sons University Logo" className="w-full h-full object-contain" />
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif font-bold text-lg tracking-tight leading-none text-white">
+                  College
+                </span>
+                <span className="text-[9px] uppercase tracking-[0.2em] font-bold text-gold mt-1">
+                  Of Armenia
+                </span>
+              </div>
+>>>>>>> 7f755d92f603d3513da0921c06c92ce42c4f6383
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Empowering the next generation of global healthcare leaders through innovation, 
@@ -102,7 +118,11 @@ export default function Footer() {
               <li className="flex items-center space-x-3 group">
                 <Phone size={18} className="text-gold shrink-0" />
                 <span className="text-gray-400 text-sm group-hover:text-white transition-colors cursor-default">
+<<<<<<< HEAD
                   +374 (00) 00-00-00
+=======
+                  +374 93 196692
+>>>>>>> 7f755d92f603d3513da0921c06c92ce42c4f6383
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
@@ -111,7 +131,11 @@ export default function Footer() {
                   href="mailto:drshubhrajput@gmail.com" 
                   className="text-gray-400 text-sm hover:text-white transition-colors"
                 >
+<<<<<<< HEAD
                   drshubhrajput@gmail.com
+=======
+                  collegeofarmenia@gmail.com
+>>>>>>> 7f755d92f603d3513da0921c06c92ce42c4f6383
                 </a>
               </li>
             </ul>
