@@ -3,14 +3,27 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import Home from "./pages/Home";
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/Home';
+// import ProgramsPage from './pages/departmentsPage';
+import DepartmentsPage from './pages/DepartmentsPage';
+import DepartmentDetailPage from './pages/DepartmentDetailPage';
+import AcademicCalendarPage from './pages/AcademicCalendarPage';
+import AdmissionProcessPage from './pages/AdmissionProcessPage';
+import AboutOverviewPage from './pages/AboutOverviewPage';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-app-bg font-sans selection:bg-gold/20 selection:text-navy">
-      <Home/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/departments" element={<DepartmentsPage />} />
+        <Route path="/departments/:id" element={<DepartmentDetailPage />} />
+        <Route path="/academic-calendar" element={<AcademicCalendarPage />} />
+        <Route path="/admission-process" element={<AdmissionProcessPage />} />
+        <Route path='/overview' element={<AboutOverviewPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

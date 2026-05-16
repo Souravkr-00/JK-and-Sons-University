@@ -3,21 +3,19 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ChevronDown, Menu, X, GraduationCap } from 'lucide-react';
 
 const navLinks = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '/' },
   {
     name: 'Academics',
     dropdown: [
-      { name: 'Programs / Courses', href: '#' },
-      { name: 'Departments', href: '#' },
-      { name: 'Faculty', href: '#' },
-      { name: 'Academic Calendar', href: '#' },
-      { name: 'Curriculum', href: '#' },
+      { name: 'Programs / Courses', href: '/' },
+      { name: 'Departments', href: '/departments' },
+      { name: 'Academic Calendar', href: '/academic-calendar' },
     ],
   },
   {
     name: 'Admissions',
     dropdown: [
-      { name: 'Admission Process', href: '#' },
+      { name: 'Admission Process', href: '/admission-process' },
       { name: 'Eligibility', href: '#' },
       { name: 'Fees & Scholarships', href: '#' },
       { name: 'International Students', href: '#' },
@@ -45,11 +43,7 @@ const navLinks = [
   {
     name: 'About',
     dropdown: [
-      { name: 'Overview', href: '#' },
-      { name: 'Vision & Mission', href: '#' },
-      { name: 'Leadership', href: '#' },
-      { name: 'History', href: '#' },
-      { name: 'Accreditations', href: '#' },
+      { name: 'Overview', href: '/overview' },
       { name: 'Contact Us', href: '#' },
       { name: 'Location / Map', href: '#' },
       { name: 'Help Desk', href: '#' },
