@@ -14,8 +14,6 @@ import {
   Building
 } from 'lucide-react';
 import { departments } from '../data/department';
-// import {Department01} from "../../assets/Images/Department01.jpg";
-
 const DepartmentDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
@@ -118,7 +116,7 @@ const DepartmentDetailPage: React.FC = () => {
           <div className="relative">
             <div className="aspect-square bg-gray-100 rounded-sm overflow-hidden relative z-10 shadow-2xl">
               <img 
-                src="../../assets/Images/Department01.jpg"
+                src="/assets/Images/Department01.jpg"
                 alt="Students collaborating"
                 className="w-full h-full object-cover"
               />

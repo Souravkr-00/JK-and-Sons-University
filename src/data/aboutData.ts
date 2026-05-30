@@ -70,7 +70,7 @@ export const aboutData: UniversityOverview = {
     {
       name: "DR. Shubhanshu Singh Rajput",
       role: "Board Chairman & Founder",
-      image: "/src/assets/Images/ceo.jpg",
+      image: "/assets/Images/ceo.jpg",
       bio: "A visionary educator and physician with over 30 years of experience in shaping higher education in Armenia."
     },
     {

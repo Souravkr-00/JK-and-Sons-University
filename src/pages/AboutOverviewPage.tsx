@@ -14,8 +14,6 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { aboutData } from '../data/aboutData';
-// import {overview01} from '../../assets/Images/overview01.jpg';
-
 const AboutOverviewPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-app-bg flex flex-col font-sans">
@@ -25,7 +23,7 @@ const AboutOverviewPage: React.FC = () => {
       <section className="relative pt-32 pb-16 bg-indigo-950 overflow-hidden">
         <div className="absolute inset-0 opacity-15">
           <img 
-            src="/src/assets/Images/overview01.jpg" 
+            src="/assets/Images/overview01.jpg" 
             alt="Campus" 
             className="w-full h-full object-cover"
           />
@@ -76,7 +74,7 @@ const AboutOverviewPage: React.FC = () => {
             
             <div className="relative aspect-video rounded-sm overflow-hidden shadow-xl">
               <img 
-                src="/src/assets/Images/overview01.jpg" 
+                src="/assets/Images/overview01.jpg" 
                 alt="Student Life" 
                 className="w-full h-full object-cover"
               />

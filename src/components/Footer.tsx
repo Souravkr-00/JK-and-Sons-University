@@ -42,7 +42,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className=" flex flex-col items-start">
             <div className="flex items-center space-x-3   ">
-              <img src="../../assets/Images/logo.png" alt="JK & Sons University Logo" className="w-20 h-30" />
+              <img src="/assets/Images/logo.png" alt="JK & Sons University Logo" className="w-20 h-30" />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Empowering the next generation of global healthcare leaders through innovation, 

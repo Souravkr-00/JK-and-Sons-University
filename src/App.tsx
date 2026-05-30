@@ -5,7 +5,6 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Home';
-// import ProgramsPage from './pages/departmentsPage';
 import DepartmentsPage from './pages/DepartmentsPage';
 import DepartmentDetailPage from './pages/DepartmentDetailPage';
 import AcademicCalendarPage from './pages/AcademicCalendarPage';
