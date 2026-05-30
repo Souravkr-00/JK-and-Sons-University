@@ -92,7 +92,7 @@ export const requiredDocuments: RequiredDocument[] = [
   { id: "doc2", name: "Academic Transcripts", description: "Detailed marks sheets of all previous semesters/years." },
   { id: "doc3", name: "Passport / National ID", description: "Clear photocopy of personal information pages." },
   { id: "doc4", name: "IELTS/TOEFL Score Card", description: "Only required for international applicants or designated tracks." },
-  { id: "doc5", name: "Recent Photographs", description: "4-6 passport-sized color photos (white background)." },
+  { id: "doc5", name: "Recent Photographs", description: "4-6 passport-sized color photos (gold background)." },
   { id: "doc6", name: "Statement of Purpose", description: "A 500-word essay explaining your interest in the program." }
 ];
 

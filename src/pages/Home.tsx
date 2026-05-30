@@ -10,7 +10,7 @@ function Home() {
         <BannerCarousel banners={bannerData} />
 
         {/* Academics Section */}
-        <section className="py-24 bg-white border-b border-gray-100">
+        <section className="py-24 bg-gold border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="mb-16">
               <span className="text-gold font-bold text-xs uppercase tracking-[0.2em] mb-4 block">
@@ -32,7 +32,7 @@ function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="group flex flex-col bg-white border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
+                className="group flex flex-col bg-gold border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
               >
                 <div className="h-64 overflow-hidden relative">
                   <img
@@ -41,7 +41,7 @@ function Home() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 bg-navy/20"></div>
+                  <div className="absolute inset-0 bg-blue-950/20"></div>
                 </div>
                 <div className="p-8 flex-1 flex flex-col">
                   <h3 className="text-xl font-serif font-bold text-navy mb-4">
@@ -75,7 +75,7 @@ function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-                className="group flex flex-col bg-white border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
+                className="group flex flex-col bg-gold border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
               >
                 <div className="h-64 overflow-hidden relative">
                   <img
@@ -84,7 +84,7 @@ function Home() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 bg-navy/20"></div>
+                  <div className="absolute inset-0 bg-blue-950/20"></div>
                 </div>
                 <div className="p-8 flex-1 flex flex-col">
                   <h3 className="text-xl font-serif font-bold text-navy mb-4">
@@ -118,7 +118,7 @@ function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
-                className="group flex flex-col bg-white border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
+                className="group flex flex-col bg-gold border border-gray-100 rounded overflow-hidden hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
               >
                 <div className="h-64 overflow-hidden relative">
                   <img
@@ -127,7 +127,7 @@ function Home() {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 bg-navy/20"></div>
+                  <div className="absolute inset-0 bg-blue-950/20"></div>
                 </div>
                 <div className="p-8 flex-1 flex flex-col">
                   <h3 className="text-xl font-serif font-bold text-navy mb-4">
@@ -159,7 +159,7 @@ function Home() {
         </section>
 
         {/* Stats Section */}
-        <section className="bg-white border-t border-gray-100 flex flex-col items-center text-center ">
+        <section className="bg-gold border-t border-gray-100 flex flex-col items-center text-center ">
           <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="space-y-1">
@@ -209,7 +209,7 @@ function Home() {
                   rigorous clinical trials and interdisciplinary collaborations.
                 </p>
               </div>
-              <button className="whitespace-nowrap bg-navy text-white px-8 py-4 rounded-md font-semibold text-sm hover:opacity-90 transition-all shadow-lg shadow-navy/10 active:scale-[0.98]">
+              <button className="goldspace-nowrap bg-blue-950 text-white px-8 py-4 rounded-md font-semibold text-sm hover:opacity-90 transition-all shadow-lg shadow-navy/10 active:scale-[0.98]">
                 View All Publications
               </button>
             </div>
@@ -253,7 +253,7 @@ function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="bg-white rounded border border-gray-100 p-8 flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all group shrink-0 w-[85%] sm:w-[60%] md:w-auto snap-center"
+                  className="bg-gold rounded border border-gray-100 p-8 flex flex-col hover:shadow-xl hover:-translate-y-1 transition-all group shrink-0 w-[85%] sm:w-[60%] md:w-auto snap-center"
                 >
                   <div className="aspect-video mb-6 rounded overflow-hidden relative">
                     <img 
@@ -262,7 +262,7 @@ function Home() {
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                       referrerPolicy="no-referrer"
                     />
-                    <div className="absolute inset-0 bg-navy/10"></div>
+                    <div className="absolute inset-0 bg-blue-950/10"></div>
                   </div>
                   <h3 className="text-lg font-serif font-bold text-navy mb-3 group-hover:text-gold transition-colors">{item.title}</h3>
                   <p className="text-sm text-text-muted font-light leading-relaxed mb-6 flex-1">

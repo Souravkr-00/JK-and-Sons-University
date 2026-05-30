@@ -46,7 +46,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
   if (!banners || banners.length === 0) return null;
 
   return (
-    <div className="relative w-full h-[500px] md:h-[650px] overflow-hidden bg-navy group">
+    <div className="relative w-full h-[500px] md:h-[650px] overflow-hidden bg-blue-950 group">
       {/* Slides */}
       <AnimatePresence initial={false} custom={direction}>
         <motion.div
@@ -78,7 +78,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="inline-block px-3 py-1 bg-gold text-navy text-[0.7rem] font-bold uppercase tracking-[0.2em] rounded-sm mb-6"
+              className="inline-block px-3 py-1 bg-white text-blue-950 text-[0.7rem] font-bold uppercase tracking-[0.2em] rounded-sm mb-6"
             >
               {banners[currentIndex].tag}
             </motion.span>
@@ -139,7 +139,7 @@ export default function BannerCarousel({ banners }: { banners: any[] }) {
               setCurrentIndex(index);
             }}
             className={`h-1 rounded-full transition-all duration-300 ${
-              index === currentIndex ? 'w-12 bg-gold' : 'w-4 bg-white/30 hover:bg-white/50'
+              index === currentIndex ? 'w-12 bg-white' : 'w-4 bg-white/30 hover:bg-white/50'
             }`}
           ></button>
         ))}

@@ -35,8 +35,8 @@ const DepartmentsPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-3xl"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
-              Our <span className="text-gold">Departments</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-300 mb-6 leading-tight">
+              Our <span className="text-gray-300">Departments</span>
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl">
               Explore our diverse academic departments, each a center of excellence dedicated 
@@ -57,7 +57,7 @@ const DepartmentsPage: React.FC = () => {
               placeholder="Search departments..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-12 pr-4 py-3 bg-white border border-gray-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-gold/20 focus:border-gold transition-all"
+              className="w-full pl-12 pr-4 py-3 bg-gold border border-gray-200 rounded-sm focus:outline-none focus:ring-2 focus:ring-gold/20 focus:border-gold transition-all"
             />
           </div>
           
@@ -67,10 +67,10 @@ const DepartmentsPage: React.FC = () => {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-6 py-2 rounded-sm text-sm text-blue-950 font-bold uppercase tracking-wider transition-all whitespace-nowrap ${
+                className={`px-6 py-2 rounded-sm text-sm text-blue-950 font-bold uppercase tracking-wider transition-all goldspace-nowrap ${
                   activeCategory === cat 
-                    ? 'bg-navy text-blue-900 shadow-lg shadow-blue-950/50' 
-                    : 'bg-white text-text-muted hover:bg-gray-100 border border-gray-100'
+                    ? 'bg-blue-950 text-white shadow-lg shadow-blue-950/50' 
+                    : 'bg-gold text-text-muted hover:bg-gray-100 border border-gray-100'
                 }`}
               >
                 {cat}
@@ -88,7 +88,7 @@ const DepartmentsPage: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="group bg-white border border-gray-100 rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col h-full"
+                className="group bg-gold border border-gray-100 rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col h-full"
               >
                 {/* Card Image */}
                 <div className="relative h-56 overflow-hidden">
@@ -127,7 +127,7 @@ const DepartmentsPage: React.FC = () => {
 
                   <Link 
                     to={`/departments/${dept.id}`}
-                    className="mt-8 flex items-center justify-center space-x-2 w-full py-3 bg-gray-50 text-blue-950 text-xs font-bold uppercase tracking-[0.15em] border border-gray-100 hover:bg-blue-950 hover:text-white hover:border-blue-950 transition-all duration-300"
+                    className="mt-8 flex items-center justify-center space-x-2 w-full py-3 bg-gray-50 text-blue-950 text-xs font-bold uppercase tracking-[0.15em] border border-gray-100 hover:bg-blue-950 hover:text-gold hover:border-blue-950 transition-all duration-300"
                   >
                     <span>View Department</span>
                     <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
@@ -148,7 +148,7 @@ const DepartmentsPage: React.FC = () => {
       </main>
 
       {/* Stats / Highlights Section */}
-      <section className="py-20 bg-white border-t border-gray-100">
+      <section className="py-20 bg-gold border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
             {[

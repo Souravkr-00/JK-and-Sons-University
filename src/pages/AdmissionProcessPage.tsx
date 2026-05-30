@@ -43,7 +43,7 @@ const AdmissionProcessPage: React.FC = () => {
             </h1>
             <p className="max-w-2xl mx-auto text-text-muted font-light leading-relaxed">
               We've simplified our admission journey into seven clear steps to ensure a smooth transition 
-              into your academic life at JK & Sons University.
+              into your academic life at College.
             </p>
           </motion.div>
         </div>
@@ -73,12 +73,12 @@ const AdmissionProcessPage: React.FC = () => {
                   className={`relative flex flex-col items-center group transition-all duration-300 ${isActive || isCompleted ? 'opacity-100' : 'opacity-40 hover:opacity-100'}`}
                 >
                   <div className={`w-14 h-14 rounded-full flex items-center justify-center border-4 transition-all duration-300 ${
-                    isActive ? 'bg-navy border-gold scale-110 shadow-xl shadow-navy/20' : 
-                    isCompleted ? 'bg-gold border-gold' : 'bg-white border-gray-100'
+                    isActive ? 'bg-blue-950 border-gold scale-110 shadow-xl shadow-navy/20' : 
+                    isCompleted ? 'bg-gold border-gold' : 'bg-gold border-gray-100'
                   }`}>
                     <Icon size={20} className={isActive || isCompleted ? (isCompleted && !isActive ? 'text-navy' : 'text-gold') : 'text-gray-400'} />
                   </div>
-                  <span className={`absolute -bottom-8 whitespace-nowrap text-[0.6rem] font-bold uppercase tracking-widest ${isActive ? 'text-navy' : 'text-text-muted'}`}>
+                  <span className={`absolute -bottom-8 goldspace-nowrap text-[0.6rem] font-bold uppercase tracking-widest ${isActive ? 'text-navy' : 'text-text-muted'}`}>
                     Step {step.id}
                   </span>
                 </button>
@@ -87,7 +87,7 @@ const AdmissionProcessPage: React.FC = () => {
           </div>
 
           {/* Focused Content Card */}
-          <div className="bg-white rounded-sm border border-gray-100 shadow-2xl shadow-navy/5 overflow-hidden">
+          <div className="bg-gold rounded-sm border border-gray-100 shadow-2xl shadow-navy/5 overflow-hidden">
             <div className="grid lg:grid-cols-2">
               <div className="p-10 md:p-16 flex flex-col justify-center">
                 <AnimatePresence mode="wait">
@@ -122,13 +122,13 @@ const AdmissionProcessPage: React.FC = () => {
                       {activeStep < admissionSteps.length ? (
                         <button 
                           onClick={() => setActiveStep(prev => prev + 1)}
-                          className="px-8 py-3 bg-navy text-black text-xs font-bold uppercase tracking-widest hover:bg-gray-100 hover:text-navy transition-all flex items-center space-x-2 rounded-sm"
+                          className="px-8 py-3 bg-blue-950 text-black text-xs font-bold uppercase tracking-widest hover:bg-gray-100 hover:text-navy transition-all flex items-center space-x-2 rounded-sm"
                         >
                           <span>Next Step</span>
                           <ArrowRight size={14} />
                         </button>
                       ) : (
-                        <button className="px-8 py-3 bg-gold text-navy text-xs font-bold uppercase tracking-widest hover:bg-navy hover:text-white transition-all shadow-lg shadow-gold/20 rounded-sm">
+                        <button className="px-8 py-3 bg-gold text-navy text-xs font-bold uppercase tracking-widest hover:bg-blue-950 hover:text-gold transition-all shadow-lg shadow-gold/20 rounded-sm">
                           Begin Online Application
                         </button>
                       )}
@@ -158,7 +158,7 @@ const AdmissionProcessPage: React.FC = () => {
                     className="w-full h-full object-cover"
                   />
                 </AnimatePresence>
-                <div className="absolute inset-0 bg-navy/10"></div>
+                <div className="absolute inset-0 bg-blue-950/10"></div>
               </div>
             </div>
           </div>

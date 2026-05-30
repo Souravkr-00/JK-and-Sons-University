@@ -36,7 +36,7 @@ export interface UniversityOverview {
 }
 
 export const aboutData: UniversityOverview = {
-  name: "JK & Sons University",
+  name: "College",
   established: 2026,
   tagline: "Shaping Future Leaders in the Heart of Armenia",
   intro: "Established in 2026, College of Armenia is a global center of excellence in Healthcare, Management, and Technology. Based in Yerevan, we provide a multicultural environment where over 5,000 students from 40+ countries pursue their academic dreams through innovation and research.",
@@ -68,7 +68,7 @@ export const aboutData: UniversityOverview = {
     //   bio: "An expert in international management committed to academic excellence and global partnerships."
     // },
     {
-      name: "DR. Shubhanshu Singh Rajput",
+      name: "Dr. Shubhanshu Singh Rajput",
       role: "Board Chairman & Founder",
       image: "/assets/Images/ceo.jpg",
       bio: "A visionary educator and physician with over 30 years of experience in shaping higher education in Armenia."

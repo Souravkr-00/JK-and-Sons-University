@@ -156,11 +156,8 @@ export default function Navbar() {
               <div className="p-8">
                 <div className="flex justify-between items-center mb-10">
                   <div className="flex items-center space-x-3">
-                    <div className="bg-navy p-2 rounded text-gold font-serif font-bold italic">
-                      JK
+                    <img src="/assets/Images/logo.png" alt="College Logo" className="w-20 h-20 object-contain" />
                     </div>
-                    <span className="font-serif font-bold text-navy">UNIVERSITY</span>
-                  </div>
                   <button onClick={() => setIsOpen(false)} className="p-2 -mr-2">
                     <X size={24} className="text-gray-400" />
                   </button>

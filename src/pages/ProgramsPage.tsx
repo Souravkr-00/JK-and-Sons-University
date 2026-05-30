@@ -54,13 +54,13 @@ export default function ProgramsPage() {
           </div>
 
           {/* Search and Filter Bar */}
-          <div className="flex flex-col md:flex-row gap-6 mb-12 bg-white p-6 rounded-sm border border-gray-100 shadow-sm">
+          <div className="flex flex-col md:flex-row gap-6 mb-12 bg-gold p-6 rounded-sm border border-gray-100 shadow-sm">
             <div className="relative flex-1">
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
                 type="text"
                 placeholder="Search courses by name or description..."
-                className="w-full pl-12 pr-4 py-3.5 bg-gray-50 border border-transparent focus:border-gold/30 focus:bg-white rounded outline-none transition-all text-navy"
+                className="w-full pl-12 pr-4 py-3.5 bg-gray-50 border border-transparent focus:border-gold/30 focus:bg-gold rounded outline-none transition-all text-navy"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
@@ -78,8 +78,8 @@ export default function ProgramsPage() {
                     onClick={() => setSelectedCategory(cat)}
                     className={`px-6 py-3.5 rounded text-xs font-bold uppercase tracking-widest transition-all ${
                       selectedCategory === cat 
-                      ? 'bg-navy text-white shadow-lg shadow-navy/10' 
-                      : 'bg-white border border-gray-100 text-text-muted hover:border-gold hover:text-navy'
+                      ? 'bg-blue-950 text-gold shadow-lg shadow-navy/10' 
+                      : 'bg-gold border border-gray-100 text-text-muted hover:border-gold hover:text-navy'
                     }`}
                   >
                     {cat}
@@ -100,7 +100,7 @@ export default function ProgramsPage() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 0.95 }}
-                    className="group bg-white border border-gray-100 rounded-sm overflow-hidden flex flex-col hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
+                    className="group bg-gold border border-gray-100 rounded-sm overflow-hidden flex flex-col hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500"
                   >
                     <div className="h-56 overflow-hidden relative">
                       <img 
@@ -110,11 +110,11 @@ export default function ProgramsPage() {
                         referrerPolicy="no-referrer"
                       />
                       <div className="absolute top-4 left-4">
-                        <span className="bg-navy/80 backdrop-blur-md text-white px-3 py-1 rounded-sm text-[0.65rem] font-bold uppercase tracking-widest">
+                        <span className="bg-blue-950/80 backdrop-blur-md text-gold px-3 py-1 rounded-sm text-[0.65rem] font-bold uppercase tracking-widest">
                           {course.degree}
                         </span>
                       </div>
-                      <div className="absolute inset-0 bg-navy/20"></div>
+                      <div className="absolute inset-0 bg-blue-950/20"></div>
                     </div>
                     
                     <div className="p-8 flex-1 flex flex-col">
@@ -144,7 +144,7 @@ export default function ProgramsPage() {
                           </div>
                         </div>
                         
-                        <button className="w-full bg-navy text-white py-3.5 rounded-sm font-bold text-[0.7rem] uppercase tracking-widest hover:bg-gold hover:text-navy transition-all active:scale-[0.98]">
+                        <button className="w-full bg-blue-950 text-gold py-3.5 rounded-sm font-bold text-[0.7rem] uppercase tracking-widest hover:bg-gold hover:text-navy transition-all active:scale-[0.98]">
                           Course Syllabus
                         </button>
                       </div>
@@ -152,7 +152,7 @@ export default function ProgramsPage() {
                   </motion.div>
                 ))
               ) : (
-                <div className="col-span-full py-20 text-center bg-white border border-gray-100 rounded">
+                <div className="col-span-full py-20 text-center bg-gold border border-gray-100 rounded">
                   <div className="bg-gray-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                     <BookOpen className="w-8 h-8 text-gray-300" />
                   </div>

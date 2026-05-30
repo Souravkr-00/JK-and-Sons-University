@@ -72,11 +72,11 @@ const AcademicCalendarPage: React.FC = () => {
             className="max-w-2xl"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
-              Academic <span className="text-gold">Calendar</span>
+              Academic <span className="text-white">Calendar</span>
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">
               Stay informed about important dates, semester timelines, holidays, and examination 
-              schedules for the upcoming academic year at JK & Sons University.
+              schedules for the upcoming academic year at College.
             </p>
           </motion.div>
 
@@ -130,7 +130,7 @@ const AcademicCalendarPage: React.FC = () => {
                 onClick={() => setActiveSemesterTab(idx)}
                 className={`flex-1 lg:flex-none px-8 py-3 rounded-sm text-xs font-bold uppercase tracking-widest transition-all ${
                   activeSemesterTab === idx 
-                    ? 'bg-white text-black shadow-md underline decoration-gold decoration-2 underline-offset-8' 
+                    ? 'bg-white text-black shadow-md underline decoration-white decoration-2 underline-offset-8' 
                     : 'text-text-muted hover:text-black'
                 }`}
               >
@@ -140,11 +140,11 @@ const AcademicCalendarPage: React.FC = () => {
           </div>
 
           {/* View Mode Toggle */}
-          <div className="flex items-center bg-white border border-gray-100 rounded-sm p-1 shadow-sm">
+            <div className="flex items-center bg-white border border-gray-100 rounded-sm p-1 shadow-sm">
             <button
               onClick={() => setViewMode('list')}
               className={`flex items-center space-x-2 px-6 py-2.5 rounded-sm text-xs font-bold uppercase tracking-widest transition-all ${
-                viewMode === 'list' ? 'bg-navy text-black shadow-lg' : 'text-text-muted hover:bg-gray-50'
+                viewMode === 'list' ? 'bg-white text-black shadow-lg' : 'text-text-muted hover:bg-gray-50'
               }`}
             >
               <ListIcon size={14} />
@@ -153,7 +153,7 @@ const AcademicCalendarPage: React.FC = () => {
             <button
               onClick={() => setViewMode('calendar')}
               className={`flex items-center space-x-2 px-6 py-2.5 rounded-sm text-xs font-bold uppercase tracking-widest transition-all ${
-                viewMode === 'calendar' ? 'bg-navy text-black shadow-lg' : 'text-text-muted hover:bg-gray-50'
+                viewMode === 'calendar' ? 'bg-white text-black shadow-lg' : 'text-text-muted hover:bg-gray-50'
               }`}
             >
               <CalendarDays size={14} />
@@ -184,10 +184,10 @@ const AcademicCalendarPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-gold p-8 rounded-sm shadow-xl shadow-gold/10">
+              <div className="bg-white p-8 rounded-sm shadow-xl shadow-white/10">
               <h3 className="text-navy font-bold text-lg mb-2">Print Version</h3>
               <p className="text-navy/70 text-xs mb-6 font-medium">Download the full academic calendar in PDF format for your records.</p>
-              <button className="flex items-center justify-center space-x-3 w-full bg-navy text-white py-4 rounded-sm font-bold text-xs uppercase tracking-widest hover:bg-white hover:text-navy transition-all">
+              <button className="flex items-center justify-center space-x-3 w-full bg-blue-950 text-white py-4 rounded-sm font-bold text-xs uppercase tracking-widest hover:bg-white hover:text-navy transition-all">
                 <Download size={16} />
                 <span>Download PDF</span>
               </button>
@@ -213,7 +213,7 @@ const AcademicCalendarPage: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="bg-white border border-gray-100 rounded-sm overflow-hidden shadow-sm">
+                  <div className="bg-gold border border-gray-100 rounded-sm overflow-hidden shadow-sm">
                     {sortedEvents.map((event, idx) => (
                       <div 
                         key={event.id}
@@ -252,11 +252,11 @@ const AcademicCalendarPage: React.FC = () => {
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -20 }}
-                  className="bg-white border border-gray-100 p-8 rounded-sm shadow-sm"
+                  className="bg-gold border border-gray-100 p-8 rounded-sm shadow-sm"
                 >
                   <div className="flex items-center justify-between mb-10">
                     <h2 className="text-2xl font-serif font-bold text-navy">Calendar Visualization</h2>
-                    <div className="p-4 bg-navy/5 rounded-sm border border-navy/10 flex items-center space-x-3 text-navy">
+                    <div className="p-4 bg-blue-950/5 rounded-sm border border-navy/10 flex items-center space-x-3 text-navy">
                       <CalendarIcon size={18} />
                       <span className="text-xs font-bold uppercase tracking-widest">Select a date to view details</span>
                     </div>
@@ -290,12 +290,12 @@ const AcademicCalendarPage: React.FC = () => {
                     })}
                   </div>
 
-                  <div className="mt-12 p-6 bg-navy text-white rounded-sm flex items-center justify-between">
+                  <div className="mt-12 p-6 bg-blue-950 text-gold rounded-sm flex items-center justify-between">
                     <div>
                       <h4 className="font-serif font-bold text-lg mb-1">Academic Timeline Info</h4>
                       <p className="text-xs text-gray-300">Detailed examination schedules are released 30 days prior to the start of each period.</p>
                     </div>
-                    <Link to="/programs" className="px-6 py-3 bg-gold text-navy text-[0.7rem] font-bold uppercase tracking-widest hover:bg-white transition-all whitespace-nowrap hidden sm:block">
+                    <Link to="/programs" className="px-6 py-3 bg-gold text-navy text-[0.7rem] font-bold uppercase tracking-widest hover:bg-gold transition-all goldspace-nowrap hidden sm:block">
                       View Programs
                     </Link>
                   </div>
@@ -307,7 +307,7 @@ const AcademicCalendarPage: React.FC = () => {
       </main>
 
       {/* Notices Section */}
-      <section className="py-20 bg-white border-t border-gray-100">
+      <section className="py-20 bg-gold border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-10 border border-gray-100 relative overflow-hidden group">
@@ -333,12 +333,12 @@ const AcademicCalendarPage: React.FC = () => {
               </Link>
             </div>
 
-            <div className="p-10 bg-blue-950 text-white relative">
-              <h3 className="font-serif font-bold text-xl mb-4">Sync to Calendar</h3>
-              <p className="text-gray-400 text-sm leading-relaxed mb-6">
+            <div className="p-10 bg-blue-950 text-gold relative">
+              <h3 className="font-serif font-bold text-xl mb-4 text-white">Sync to Calendar</h3>
+              <p className="text-white text-sm leading-relaxed mb-6">
                 Directly import all academic dates into your Google Calendar, iCal, or Outlook.
               </p>
-              <button className="flex items-center space-x-2 text-[0.6rem] font-bold uppercase tracking-widest text-gold hover:text-white transition-colors">
+              <button className="flex items-center space-x-2 text-[0.6rem] font-bold uppercase tracking-widest text-white hover:text-white transition-colors">
                 <CalendarIcon size={14} />
                 <span>Export to Google Calendar</span>
               </button>

@@ -36,7 +36,7 @@ export const departments: Department[] = [
     name: 'Computer Science & Engineering',
     category: 'Engineering',
     tagline: 'Architecting the Digital Future through Innovation and Intelligence.',
-    description: 'The Department of Computer Engineering at JK & Sons University is a hub of innovation, focusing on cutting-edge technologies like Artificial Intelligence, Cloud Computing, and Cybersecurity.',
+    description: 'The Department of Computer Engineering at College is a hub of innovation, focusing on cutting-edge technologies like Artificial Intelligence, Cloud Computing, and Cybersecurity.',
     programsCount: 5,
     hod: 'Dr. Armen Vardanyan',
     image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80',
