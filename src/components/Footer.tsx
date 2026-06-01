@@ -96,7 +96,6 @@ export default function Footer() {
                 <MapPin size={18} className="text-white shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm leading-relaxed group-hover:text-white transition-colors cursor-default">
                 9/10, Myasnikyan Avenue, Yerevan <br />
-                Postal code- 0025
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
