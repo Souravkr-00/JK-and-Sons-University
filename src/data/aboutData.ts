@@ -73,12 +73,12 @@ export const aboutData: UniversityOverview = {
       image: "/assets/Images/ceo.jpg",
       bio: "A visionary educator and physician with over 30 years of experience in shaping higher education in Armenia."
     },
-    {
-      name: "Dr. Aram Petrosyan",
-      role: "Chief Operating Officer",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80",
-      bio: "Overseeing institutional growth and digital infrastructure to support a modern learning environment."
-    }
+    // {
+    //   name: "Dr. Aram Petrosyan",
+    //   role: "Chief Operating Officer",
+    //   image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80",
+    //   bio: "Overseeing institutional growth and digital infrastructure to support a modern learning environment."
+    // }
   ],
   facilities: [
     {
