@@ -102,7 +102,7 @@ const AboutOverviewPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
             <span className="text-white font-bold text-xs uppercase tracking-[0.2em] mb-4 block">University Governance</span>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-black">Our <span className="text-black">Leaders & Founders</span></h2>
+            {/* <h2 className="text-3xl md:text-4xl font-serif font-bold text-black">Our <span className="text-black">Rectors & Founders</span></h2> */}
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -119,8 +119,8 @@ const AboutOverviewPage: React.FC = () => {
                   <img src={leader.image} alt={leader.name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-l font-serif font-bold text-blue-950 mb-1">CEO & Founder</h3>
                   <h4 className="text-xl font-serif font-bold text-blue-950 mb-1">{leader.name}</h4>
+                  <h3 className="text-xl font-serif font-bold text-blue-950 mb-1">Rector & Founder</h3>
                   
                   <div className="text-[0.65rem] font-bold text-white uppercase tracking-[0.2em] mb-4">{leader.role}</div>
                   <p className="text-xs text-text-muted leading-relaxed font-light">{leader.bio}</p>
