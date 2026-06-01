@@ -20,7 +20,7 @@ function Home() {
                 Our Specializations
               </h2>
               <p className="max-w-2xl text-text-muted font-light leading-relaxed">
-                JK & Sons College of Armenia follows a modular, competency-based
+                College of Armenia follows a modular, competency-based
                 structure aligned with international academic frameworks,
                 tailored to Armenia's evolving healthcare and management needs.
               </p>
@@ -131,7 +131,7 @@ function Home() {
                 </div>
                 <div className="p-8 flex-1 flex flex-col">
                   <h3 className="text-xl font-serif font-bold text-navy mb-4">
-                    Medical Science (BSc/MSc)
+                    Bachelors Science & Medical Science (BSc/MSc)
                   </h3>
                   <div className="space-y-2 mb-8 flex-1 text-xs">
                     {[
