@@ -120,7 +120,7 @@ const AboutOverviewPage: React.FC = () => {
                 </div>
                 <div className="text-center">
                   <h4 className="text-xl font-serif font-bold text-blue-950 mb-1">{leader.name}</h4>
-                  <h3 className="text-xl font-serif font-bold text-blue-950 mb-1">Rector & Founder</h3>
+                  <h3 className="text-xl font-serif font-bold text-blue-950 mb-1">Founder & Rector</h3>
                   
                   <div className="text-[0.65rem] font-bold text-white uppercase tracking-[0.2em] mb-4">{leader.role}</div>
                   <p className="text-xs text-text-muted leading-relaxed font-light">{leader.bio}</p>
