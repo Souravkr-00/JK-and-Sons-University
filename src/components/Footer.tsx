@@ -95,7 +95,7 @@ export default function Footer() {
               <li className="flex items-start space-x-3 group">
                 <MapPin size={18} className="text-white shrink-0 mt-0.5" />
                 <span className="text-gray-400 text-sm leading-relaxed group-hover:text-white transition-colors cursor-default">
-                9/10, Myasnikyan Avenue, Yerevan <br />
+                9/10, Myasnikyan Avenue, Yerevan - 0025<br />
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
